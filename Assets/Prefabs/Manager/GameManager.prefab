@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3887097885314156868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3887097885314156866}
+  - component: {fileID: 3887097885314156867}
+  - component: {fileID: 3887097885314156865}
+  - component: {fileID: 3887097885314156864}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3887097885314156866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3887097885314156868}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 29.67223, y: 3.6418054, z: 0.67083037}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3887097885314156867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3887097885314156868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6058a79b0ac07374ab222fc5ab655676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerStats: {fileID: 0}
+  myJoystick: {fileID: 0}
+  dialogcd: 0.1
+  tempcd: 0
+--- !u!114 &3887097885314156865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3887097885314156868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ea7b419301a87f41abbbd8a023ad1e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerpreFab: {fileID: 2423944683011862202, guid: 34d5cf80c40f78747a383bc47b6db11c,
+    type: 3}
+  controlCanvas: {fileID: 1250149824488987825, guid: c6601120b5463b74ea7a7565dbe56f71,
+    type: 3}
+  statsCanvas: {fileID: 5637047416377866338, guid: c140920a895623e4fb540d55f9b6c351,
+    type: 3}
+  dialogCanvas: {fileID: 960499078658009708, guid: 02e4d59d886180c4093944476ee62f7f,
+    type: 3}
+  strengthCanvas: {fileID: 5530480305322358491, guid: e8e8a9e4ccfb0e248a5e824d47ae3d79,
+    type: 3}
+  pauseCanvas: {fileID: 207937407028000506, guid: a6bbd0c38e64e4148bd7307cb987b3eb,
+    type: 3}
+--- !u!114 &3887097885314156864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3887097885314156868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a69b08a66ceeb949ba309a9befab4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
